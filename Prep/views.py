@@ -1,4 +1,7 @@
 from django.shortcuts import render
+from django.utils import timezone
+from .models import Starter
 
 def post_list(request):
-    return render(request, 'blog/post_list.html', {})
+    starter = Starter.objects.all()
+    return render(request, 'Prep/app.html', {'starter': starter})

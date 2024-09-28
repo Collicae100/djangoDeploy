@@ -1,0 +1,15 @@
+
+{% extends 'Prep/base.html' %}
+
+{% block content %}
+    {% for start in starter %}
+
+    <article>
+    <h2>
+        {{ start.title }}:
+    </h2> 
+    <p>{{ start.text }}</p>
+    </article>
+
+    {% endfor %}
+{% endblock %}

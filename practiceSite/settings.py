@@ -55,7 +55,7 @@ ROOT_URLCONF = "practiceSite.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": ['practiceSite/Prep/templates'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [

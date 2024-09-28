@@ -1,0 +1,28 @@
+header{
+    background-color: blanchedalmond;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+h1{
+    color: #C25100;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body{
+    background-color: beige;
+}
+
+h2{
+    color:grey;
+}
+
+
+p{
+    padding: 15px;
+    font-size: 25px;
+}
